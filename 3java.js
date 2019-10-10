@@ -1,0 +1,11 @@
+let UNB= new String("Каченя Дмитрий Станиславович ") ;
+document.write(UNB.length+"<br>");
+let arr=new String;
+let arr1=new String;
+document.write(UNB.toUpperCase()+"<br>");
+document.write(UNB.toLowerCase() +"<br>");
+arr=UNB.toLowerCase();
+arr1=UNB.toUpperCase();
+let arr2=arr.concat(arr1);
+document.write(arr2+"<br>");
+document.write(UNB.replace('Каченя Дмитрий Станиславович','К.Д.С.') );
